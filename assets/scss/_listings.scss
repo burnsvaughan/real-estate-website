@@ -1,34 +1,68 @@
-header{
+header {
 	background: #0C002B;
 	color: white;
-	overflow: auto;
-	padding: 20px 15px;
+	height:8vh;
+	width:100vw;
+	text-align:center;
+}
 
-	.logo{
+header .header-container {
+	width:90vw;
+	height:100%;
+	margin: 0 auto;
+}
+
+header .header-container .logo {
 		float:left;
-	}
-
-	nav{
-		float:right;
-
-		a{
-			color:white;
-			text-decoration:none;
-			padding: 10px 20px;
-			font-weight: 300;	
-
-			&:hover{
-
-				color: #FF718E;
-			}
-		&.register-btn{
-			background:$pink;
-			padding:10px 25px;
-			text-align: center;
-			color: white;
-			border-radius: 5px;
+		position:relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
 		
-		}	 
-		}
-	}
+		
+}
+
+header .nav1 {
+	float: right;
+	height:100%;
+}
+
+header .nav1 a {
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	display:inline-block;
+	width:15vh;
+	position:relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+		
+}
+
+header .nav1 a:hover {
+	color: #FF718E
+}
+
+.register-btn {
+	background: #FF718E;
+	padding: 1vh 2.5vh;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	font-weight: 300;
+	width:20vh;
+	float:right;
+	position:relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+}
+
+.register-btn a{
+	text-decoration:none;
+	color:white;
 }
