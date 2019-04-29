@@ -56,7 +56,8 @@ export default class Header extends Component {
 							<div className="bottom-info">
 								<span className="price">${listing.price}</span>
 								<span className="location">
-									<i className="fas fa-map-marker" />
+									<i className="fas fa-map-marked-alt" />
+									&nbsp;
 									{listing.suburb}, {listing.city}
 								</span>
 							</div>
