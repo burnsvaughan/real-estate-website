@@ -67,7 +67,6 @@ export default class Filter extends Component {
 		return (
 			<section id="filter">
 				<div className="inside">
-					<h4>Filter</h4>
 					<label for>City</label>
 					<select
 						name="city"
