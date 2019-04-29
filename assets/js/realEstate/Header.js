@@ -11,7 +11,7 @@ export default class Header extends Component {
 		return (
 			<header>
 				<div className="header-container">
-					<div className="logo">Logo</div>
+					<div className="logo" />
 					<div className="register-btn">
 						<a href="#">Register</a>
 					</div>

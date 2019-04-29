@@ -1,26 +1,29 @@
 header {
 	background: #0C002B;
 	color: white;
-	height:8vh;
-	width:100vw;
+	height:10vh;
+	width:100%;
 	text-align:center;
 }
 
 header .header-container {
-	width:90vw;
+	width:90%;
 	height:100%;
 	margin: 0 auto;
 }
 
-header .header-container .logo {
-		float:left;
-		position:relative;
+header .header-container .logo{
+    float:left;
+    height:90%;
+    width:32vh;
+    background-image: url('../../img/logo1.png');
+    background-size:cover;
+	background-repeat:no-repeat; 
+	position:relative;
 		top: 50%;
 		-webkit-transform: translateY(-50%);
 			-ms-transform: translateY(-50%);
 				transform: translateY(-50%);
-		
-		
 }
 
 header .nav1 {
@@ -28,18 +31,15 @@ header .nav1 {
 	height:100%;
 }
 
-header .nav1 a {
-	color: white;
-	text-decoration: none;
-	font-weight: 300;
-	display:inline-block;
-	width:15vh;
-	position:relative;
-		top: 50%;
-		-webkit-transform: translateY(-50%);
-			-ms-transform: translateY(-50%);
-				transform: translateY(-50%);
-		
+header .nav1 a{
+    color:white;
+    text-decoration:none;
+    font-weight:300;
+    display:inline-block;
+    padding-right: 6.5vh;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%)
 }
 
 header .nav1 a:hover {
@@ -47,6 +47,7 @@ header .nav1 a:hover {
 }
 
 .register-btn {
+	margin-right:2vh;
 	background: #FF718E;
 	padding: 1vh 2.5vh;
 	text-align: center;
