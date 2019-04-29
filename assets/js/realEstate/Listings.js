@@ -117,7 +117,12 @@ export default class Header extends Component {
 		return (
 			<section id="Listings">
 				<section className="search-area">
-					<input type="text" name="search" onChange={this.props.change} />
+					<input
+						type="text"
+						name="search"
+						placeholder="type area e.g. East Auckland..."
+						onChange={this.props.change}
+					/>
 				</section>
 
 				<section className="sortby-area">
