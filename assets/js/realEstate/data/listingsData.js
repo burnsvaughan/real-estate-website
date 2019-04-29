@@ -7,7 +7,7 @@ var listingsData = [
 		price: 234000,
 		floorSpace: 1000,
 		extras: ['elevator', 'gym'],
-		homeType: 'house',
+		homeType: 'House',
 		image: 'https://i.postimg.cc/CMvWSCnM/exterior-1597098-640.jpg'
 	},
 	{
@@ -18,7 +18,7 @@ var listingsData = [
 		price: 345000,
 		floorSpace: 3000,
 		extras: ['elevator', 'gym'],
-		homeType: 'house',
+		homeType: 'House',
 		image: 'https://i.postimg.cc/NMBWfpxF/interior-2685522-640.jpg'
 	},
 	{
@@ -29,7 +29,7 @@ var listingsData = [
 		price: 765000,
 		floorSpace: 3000,
 		extras: ['elevator', 'gym'],
-		homeType: 'apartment',
+		homeType: 'Apartment',
 		image: 'https://i.postimg.cc/0Qnh6Dtf/kitchen-1940177-640.jpg'
 	},
 	{
@@ -40,7 +40,7 @@ var listingsData = [
 		price: 546000,
 		floorSpace: 1000,
 		extras: ['elevator', 'gym'],
-		homeType: 'apartment',
+		homeType: 'Apartment',
 		image: 'https://i.postimg.cc/8cn34Dgf/kitchen-2400367-640.jpg'
 	},
 	{
@@ -51,7 +51,7 @@ var listingsData = [
 		price: 222000,
 		floorSpace: 4000,
 		extras: ['elevator', 'gym'],
-		homeType: 'house',
+		homeType: 'House',
 		image: 'https://i.postimg.cc/fybpYyph/luxury-home-2409518-640.jpg'
 	},
 	{
@@ -62,7 +62,7 @@ var listingsData = [
 		price: 153000,
 		floorSpace: 4500,
 		extras: ['elevator', 'gym'],
-		homeType: 'house',
+		homeType: 'House',
 		image: 'https://i.postimg.cc/6QdkXDnF/rec-room-802017-640.jpg'
 	}
 ];
