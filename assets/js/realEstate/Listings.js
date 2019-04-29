@@ -52,14 +52,15 @@ export default class Header extends Component {
 									</div>
 								</div>
 							</div>
-
-							<div className="bottom-info">
-								<span className="price">${listing.price}</span>
-								<span className="location">
-									<i className="fas fa-map-marked-alt" />
-									&nbsp;
-									{listing.suburb}, {listing.city}
-								</span>
+							<div className="bottom-info-container">
+								<div className="bottom-info">
+									<span className="price">${listing.price}</span>
+									<span className="location">
+										<i className="fas fa-map-marked-alt" />
+										&nbsp;
+										{listing.suburb}, {listing.city}
+									</span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -100,13 +101,14 @@ export default class Header extends Component {
 									</div>
 								</div>
 							</div>
-
-							<div className="bottom-info">
-								<span className="price">${listing.price}</span>
-								<span className="location">
-									<i className="fas fa-map-marker" />
-									{listing.suburb}, {listing.city}
-								</span>
+							<div className="bottom-info-container">
+								<div className="bottom-info">
+									<span className="price">${listing.price}</span>
+									<span className="location">
+										<i className="fas fa-map-marker" />
+										{listing.suburb}, {listing.city}
+									</span>
+								</div>
 							</div>
 						</div>
 					</div>
